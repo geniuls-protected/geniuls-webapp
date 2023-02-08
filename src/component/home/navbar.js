@@ -1,12 +1,15 @@
 import Image from 'next/image'
 import logo from '../../images/logo.png'
+import logonew from '../../images/logonew.svg'
+
+{/* <Image src={logo} alt='geniuls logo' className='logo-img'/> */}
 
 export default function Navbar() {
   return (
     <>
-        <nav class="container navbar navbar-expand-lg">
+        <nav class="container navbar navbar-expand-lg" >
     <div class="container-fluid">
-        <a class="navbar-brand" href="#"><Image src={logo} alt='geniuls logo' className='logo-img'/></a>
+        <a class="navbar-brand" href="#">Geniuls</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>

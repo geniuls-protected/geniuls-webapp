@@ -8,6 +8,8 @@ import Companies from "./comapnies";
 
 import brake from '../../images/brake.svg';
 import Image from "next/image";
+import FAQ from "./fag";
+import Footer from "./footer";
 
 
 export default function HomePage() {
@@ -26,6 +28,9 @@ export default function HomePage() {
         <div style={{paddingTop:'100px'}}/>
         <Companies/>
         <div style={{paddingTop:'100px'}}/>
+        <FAQ/>
+        <div style={{paddingTop:'100px'}}/>
+        <Footer/>
       </>
     )
   }
