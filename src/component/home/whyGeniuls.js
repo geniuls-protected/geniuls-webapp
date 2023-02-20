@@ -1,6 +1,7 @@
 import catalog from '../../images/catalog.png'
 import Image from 'next/image';
 import { Box, Container, Flex, Heading, Text } from 'theme-ui';
+import scribble from '../../images/scribble.png'
 import image1 from './assets/features-1.svg';
 import image2 from './assets/features-2.svg';
 import image3 from './assets/features-3.svg';
@@ -31,22 +32,23 @@ export default function WhyGeniuls() {
     const { title, text, posts } = FEATURES_DATA;
   return (
     <>
-        <div className="container" style={{marginLeft:'100px', marginRight:'10px'}}>
-        <h4><bold><mark>Why Geniuls?</mark></bold></h4>
-        <div style={{paddingTop:'40px'}}/>
-        <Flex >
-          {posts.map(({ stepNo, title, text }, index) => (
-            <Box  key={`feature-post-key-${index}`}>
-              <Box className="image">
-                <div className='numberCircle'>{stepNo}</div>
+        <div className="container" style={{marginLeft:'170px', paddingLeft: '44px', marginRight:'10px'}}>
+          <div class='work-heading'><bold>Why Geniuls?</bold></div>
+          <Image src={scribble} class='scribble-img'/>
+          <div style={{paddingTop:'40px'}}/>
+          <Flex >
+            {posts.map(({ stepNo, title, text }, index) => (
+              <Box  key={`feature-post-key-${index}`}>
+                <Box className="image">
+                  <div className='numberCircle'>{stepNo}</div>
+                </Box>
+                <Box>
+                  <Heading as="h3">{title}</Heading>
+                  <Text as="p">{text}</Text>
+                </Box>
               </Box>
-              <Box>
-                <Heading as="h3">{title}</Heading>
-                <Text as="p">{text}</Text>
-              </Box>
-            </Box>
-          ))}
-        </Flex>
+            ))}
+          </Flex>
         </div>
     </>
   )

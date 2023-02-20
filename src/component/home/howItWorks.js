@@ -4,7 +4,7 @@ import scribble from '../../images/scribble.png'
 
 export default function HowItWorks() {
   return (
-    <div className="container" style={{marginLeft:'170px'}}>
+    <div className="container" style={{marginLeft:'170px', paddingLeft: '44px'}}>
         <div class='work-heading'><bold>How it works!</bold></div>
         <Image src={scribble} class='scribble-img'/>
         <div style={{margin: '25px 0 0 20px'}}>
