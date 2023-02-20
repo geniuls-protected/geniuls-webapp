@@ -1,13 +1,16 @@
+import Image from 'next/image';
 import { AiOutlineThunderbolt, AiOutlineBulb, AiOutlineHeart } from 'react-icons/ai';
+import scribble from '../../images/scribble.png'
 
 export default function HowItWorks() {
   return (
     <div className="container" style={{marginLeft:'170px'}}>
-        <h4><bold><mark>How it works!</mark></bold></h4>
-        <div style={{marginLeft: '20px'}}>
-            <h6><AiOutlineThunderbolt size={25}/>&nbsp;&nbsp;An outcome driven intiative that upskills early career professionals led by <bold>GENIULS</bold> expert.</h6>
-            <h6><AiOutlineBulb size={25}/>&nbsp;&nbsp;Not a traditional course, Mentorship is provided on case-by-case basis.</h6>
-            <h6><AiOutlineHeart size={25}/>&nbsp;&nbsp;Assisstance till you get placed and beyond!</h6>
+        <div class='work-heading'><bold>How it works!</bold></div>
+        <Image src={scribble} class='scribble-img'/>
+        <div style={{margin: '25px 0 0 20px'}}>
+            <div class='sub-works'><AiOutlineThunderbolt size={25}/>&nbsp;&nbsp;An outcome driven intiative that upskills early career professionals led by <bold>GENIULS</bold> expert.</div>
+            <div class='sub-works'><AiOutlineBulb size={25}/>&nbsp;&nbsp;Not a traditional course, Mentorship is provided on case-by-case basis.</div>
+            <div class='sub-works'><AiOutlineHeart size={25}/>&nbsp;&nbsp;Assisstance till you get placed and beyond!</div>
         </div>
         <div style={{paddingTop:'40px'}}/>
 

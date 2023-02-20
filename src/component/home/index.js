@@ -17,7 +17,7 @@ export default function HomePage() {
       <>
         <Navbar/>
         <Intro/>
-        <div style={{paddingTop:'160px'}}/>
+        {/* <div style={{paddingTop:'80px'}}/> */}
         <Stats/>
         <div style={{paddingTop:'100px'}}/>
         <HowItWorks/>

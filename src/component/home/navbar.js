@@ -8,7 +8,7 @@ export default function Navbar() {
   return (
     <>
         <nav class="container navbar navbar-expand-lg" >
-    <div class="container-fluid">
+    <div class="container-fluid" style={{marginTop: '17px'}}>
         <a class="navbar-brand" href="#">Geniuls</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -17,19 +17,19 @@ export default function Navbar() {
             <ul class="navbar-nav me-auto mb-2 mb-lg-0"></ul>
             <ul class="navbar-nav">
                 <li class="nav-item" style={{paddingRight: '20px'}}>
-                    <a class="nav-link active" href="#">How It Works!</a>
+                    <a class="nav-link active" href="#"><span class='nav-comp'>How It Works!</span></a>
                 </li>
                 <li class="nav-item" style={{paddingLeft: '20px', paddingRight: '20px'}}>
-                    <a class="nav-link active" href="#">Why Geniuls?</a>
+                    <a class="nav-link active" href="#"><span class='nav-comp'>Why Geniuls?</span></a>
                 </li>
                 <li class="nav-item" style={{paddingLeft: '20px', paddingRight: '20px'}}>
-                    <a class="nav-link active" href="#">Contact Us</a>
+                    <a class="nav-link active" href="#"><span class='nav-comp'>Contact Us</span></a>
                 </li>
                 <li class="nav-item" style={{paddingLeft: '20px', paddingRight: '20px'}}>
-                    <a class="nav-link active" href="#">FAQ</a>
+                    <a class="nav-link active" href="#"><span class='nav-comp'>FAQ</span></a>
                 </li>
                 <li class="nav-item" style={{paddingLeft: '20px', paddingRight: '20px'}}>
-                    <a class="nav-link active" href="#"><button className='register-button'>Register</button></a>
+                    <a class="nav-link active" href="#"><span class='nav-comp'><button className='register-button'>Register</button></span></a>
                 </li>
                 {/* <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false"> Menu </a>

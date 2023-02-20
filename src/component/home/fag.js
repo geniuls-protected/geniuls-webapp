@@ -15,60 +15,55 @@ export default function FAQ() {
   <div class="accordion-item">
     <h2 class="accordion-header" id="flush-headingOne">
       <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
-      What is the PAP Agreement and how does it work?
+      How does Pay after Placement works?
       </button>
     </h2>
     <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
-      <div class="accordion-body">The Pay After Placement Agreement is a way to pay your Masai course fee. PAP at Masai is an agreement between students and Masai under which you agree to pay a fixed monthly payment for 36 months or less. The payment starts only once you earn a salary above the threshold amount. The threshold amount is the minimum salary you have to earn before you start paying Masai your course fee.<br/>If you do not get the promised outcome, a job that pays INR 5,00,000/- (CTC) or more, you pay us nothing at all. Your education is free.</div>
+      <div class="accordion-body">You can pay for your mentorship fees by using Income Share Agreement. ISA  at Geniuls is a contract between students and Geniuls where you commit to pay a set amount for some months. Only after you are placed for 7LPA and above you start paying Geniuls back.<br/>You do not pay us anything if you do not receive the desired result, which is a job paying at least INR 7,00,000 (CTC). In that case your education is totally free.</div>
     </div>
   </div>
 
   <div class="accordion-item">
     <h2 class="accordion-header" id="flush-headingTwo">
       <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
-      Do I need to submit any document post getting a job?
+      What if I don't get placed for 7LPA or more?
       </button>
     </h2>
     <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
-      <div class="accordion-body">As per the Pay After Placement(PAP) Agreement, you will be legally bound to furnish all the documents relevant to your income, such as your Offer Letter, Salary Slips, IT Returns, Bank statements, etc.</div>
+      <div class="accordion-body">We at Geniuls are always working to find you good placement opportunities.  In fact our students after bootcamp have multiple dream offers to choose from with packages ranging from 10LPA to 36LPA.<br/>In the rare case that you don’t get a job of your threshold amount, your education will be completely free.</div>
     </div>
   </div>
   
   <div class="accordion-item">
     <h2 class="accordion-header" id="flush-headingThree">
       <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
-      What is the interest rate on my Pay After Placement(PAP) payments?
+      What will be my curriculum and who will be teaching me?
       </button>
     </h2>
     <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
-      <div class="accordion-body">PAP Agreement is NOT a loan, so there is no interest on your payment.</div>
+      <div class="accordion-body">This is what separates Geniuls from the rest, we don't offer you a traditional course. We design our course and curriculum according to unique requirements and skills of a student. If the syllabus designed for you overlaps with some other students you will be placed in a small batch otherwise we will be happy to give you a one-on-one sessions.<br/>You don't have to worry about the mentor that will be assigned to you. Our each mentor has an impeccable placement record, some used to work for MAANG companies, some helped students crack MAANG companies and some still work as recruiters for dream companies.</div>
     </div>
   </div>
 
   <div class="accordion-item">
     <h2 class="accordion-header" id="flush-headingFour">
       <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
-      What is CTC?
+      Does Geniuls provide job switching assistance?
       </button>
     </h2>
     <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour" data-bs-parent="#accordionFlushExample">
-      <div class="accordion-body">CTC (Cost to Company) is defined as “Your total salary (including variable pay), compensations, and gross income and including, but not limited to, benefits such as insurance, HRA, fitness/health benefits, other benefits and allowances including, but not limited to, house rent allowance, leave travel allowance, conveyance and travelling allowance, phone allowance, vehicle allowance and other allowances provided to you from employment or pursuant to self-employment”</div>
+      <div class="accordion-body">Yes, even after you get placed we will be still helping you get better offers.<br/>For experienced candidates we even have flexible ISA threshold.<br/>We have helped working professionals in past getting a better package and position.</div>
     </div>
   </div>
 
   <div class="accordion-item">
     <h2 class="accordion-header" id="flush-headingFive">
       <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseFive">
-      When do my PAP repayments start and what if I get fired?
+      How will Geniuls verify my income?
       </button>
     </h2>
     <div id="flush-collapseFive" class="accordion-collapse collapse" aria-labelledby="flush-headingFive" data-bs-parent="#accordionFlushExample">
-      <div class="accordion-body">
-        It will come into action once you get placed with at or more than 5 LPA CTC job after completion of the course.<br/>In the event, you lose your job because<br/>
-        i. your employer/company you were placed in stops its business,<br/>
-        ii. pay-cut is introduced by your employer/ company you were placed in, across the company,<br/>
-        iii. lay-off by your employer/ company you were placed in, due to economic hardship,<br/>
-        your payments will automatically be paused after you’ve reported the change and produced the requisite supporting documents.</div>
+      <div class="accordion-body">As per the ISA, you will be legally bound to furnish all the income relevant documents such as Offer Letter, Salary Slips, Income Tax Returns, Bank Statements, etc. to Geniuls. Also fee collection happens through a NBFC partner. In case of voluntary non-payments, the NBFC will initiate legal action to recover the pending payments. Also, this will negatively impact your credit score.</div>
     </div>
   </div>
 </div>

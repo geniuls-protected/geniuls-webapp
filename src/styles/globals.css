@@ -19,6 +19,22 @@ max-height: 100%;
   /* background-color: white; */
 }
 
+.nav-comp {
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.scribble-img {}
+
+.work-heading{
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.sub-works {
+  padding-bottom: 15px;
+}
+
 .input-email {
   border: none;
   width: 400px;
@@ -45,8 +61,8 @@ max-height: 100%;
   border: 1px solid #3C2A21;
   border-radius: 0.375rem;
   color: white;
-  padding: 0.3rem 1.2rem;
-  margin: 0;
+  padding: 0.57rem 1.2rem;
+  margin: 0;;
 }
 
 .register-button:hover {
@@ -56,7 +72,9 @@ max-height: 100%;
 }
 
 .catalog-img {
-  height: 350px;
+  padding-top: 86px;
+  height: 496px;
+  width: auto;
 }
 
 .vl {
@@ -85,6 +103,16 @@ max-height: 100%;
   font-size: 15px;
 }
 
+.geniuls-desc {
+  font-size:17px;
+  font-family:Arial;
+  margin-right: 10px;
+  margin-left: 105px;
+  margin-top: 80px;
+  margin-bottom: 37px;
+  line-height: 30px;
+}
+
 .enrollButton {
   font-size:17px;
   font-family:Arial;
@@ -101,6 +129,13 @@ max-height: 100%;
   box-shadow: 1px 8px 0px 1px #fff;
   background:#C1D3FE;
   margin-left: 105px;
+  margin-bottom: 60px;
+}
+
+.main-points {
+  color: #ffbd59;
+  font-weight: bold;
+  font-size: 22px;
 }
 
 .enrollButton:hover {
@@ -268,7 +303,9 @@ max-height: 100%;
   font-family: "Poppins", sans-serif;
   font-size: 45px;
   font-weight: 600;
-  margin: 100px
+  margin: 100px;
+  margin-bottom: 30px;
+  padding-top: 30px;
 }
 
 .vertical__animation__words{
