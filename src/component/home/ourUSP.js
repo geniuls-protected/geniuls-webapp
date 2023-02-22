@@ -41,7 +41,7 @@ const PRODUCT_FEATURE = {
 export default function OurUSP() {
     const { sectionTitle, posts } = PRODUCT_FEATURE;
   return (
-    <div style={{backgroundColor:'#F9FAFC'}}>
+    <div style={{backgroundColor:'#F9FAFC'}} id='usp'>
       <div className='container'>
       <Box sx={styles.section}>
       <Container>

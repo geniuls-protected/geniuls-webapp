@@ -1,17 +1,18 @@
 import Image from 'next/image'
-import logo from '../../images/logo.png'
+import Dream from '../../images/Dream.png'
 
 {/* <Image src={logo} alt='geniuls logo' className='logo-img'/> */}
 
 export default function FAQ() {
   return (
     <>
-    <div class="container">
+    <div class="container" id='faq'>
       <div class="row">
-        <div class="col-5">image</div>
-        <div class="col-7">
-        <h4 style={{textAlign:'center', fontWeight:'bold'}}>Frequently Asked Questions</h4>
-    <div class="accordion accordion-flush" id="accordionFlushExample">
+        <div class="col-5" style={{paddingTop:'100px', marginLeft:'-112px'}}><Image src={Dream} height={370}/></div>
+        <div class='col-2'></div>
+        <div class="col-5">
+        <h4 style={{textAlign:'center', fontWeight:'bold', paddingTop:'70px'}}>Frequently Asked Questions</h4>
+    <div class="accordion accordion-flush" id="accordionFlushExample" style={{ marginRight:'-100px'}}>
   <div class="accordion-item">
     <h2 class="accordion-header" id="flush-headingOne">
       <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">

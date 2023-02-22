@@ -27,9 +27,9 @@ export default function HomePage() {
         <OurUSP/>
         <div style={{paddingTop:'100px'}}/>
         <Companies/>
-        <div style={{paddingTop:'100px'}}/>
+        {/* <div style={{paddingTop:'100px'}}/> */}
         <FAQ className="main-style"/>
-        <div style={{paddingTop:'100px'}}/>
+        {/* <div style={{paddingTop:'100px'}}/> */}
         <Footer/>
       </div>
     )

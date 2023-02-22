@@ -4,13 +4,13 @@ import scribble from '../../images/scribble.png'
 
 export default function HowItWorks() {
   return (
-    <div className="container">
-        <div class='work-heading why-layout'><bold>How it works!</bold></div>
+    <div className="container" id='howItWorks'>
+        <div class='work-heading why-layout'>How it works!</div>
         <Image src={scribble} class='scribble-img why-layout'/>
         <div style={{margin: '25px 0 0 20px'}}>
-            <div class='sub-works why-layout'><AiOutlineThunderbolt size={25}/>&nbsp;&nbsp;An outcome driven intiative that upskills early career professionals led by <bold>GENIULS</bold> expert.</div>
-            <div class='sub-works why-layout'><AiOutlineBulb size={25}/>&nbsp;&nbsp;Not a traditional course, Mentorship is provided on case-by-case basis.</div>
-            <div class='sub-works why-layout'><AiOutlineHeart size={25}/>&nbsp;&nbsp;Assisstance till you get placed and beyond!</div>
+            <div class='why-layout'><AiOutlineThunderbolt size={25}/>&nbsp;&nbsp;<span class='sub-works'>An outcome driven intiative that upskills early career professionals led by GENIULS expert.</span></div>
+            <div class='why-layout'><AiOutlineBulb size={25}/>&nbsp;&nbsp;<span class='sub-works'>Not a traditional course, Mentorship is provided on case-by-case basis.</span></div>
+            <div class='why-layout'><AiOutlineHeart size={25}/>&nbsp;&nbsp;<span class='sub-works'>Assistance till you get placed and beyond!</span></div>
         </div>
         <div style={{paddingTop:'40px'}}/>
 
@@ -18,31 +18,36 @@ export default function HowItWorks() {
         <div className='row'>
             <div className='col'>
                 <div class="works-box" style={{backgroundColor: 'rgb(238, 255, 247)'}}>
-                    <br/>
-                    After registering*,  A mentor and a coding buddy is assigned to you and you learn at 0 upfront fees.
-                    <div style={{height:'18px'}} />
+                <div style={{height:'10px'}} />
+                    <span class='hook-points'>₹0*  
+                        <span class='imp-text'> Upfront Fees <br/></span>
+                    </span>
+                    For Mentorship & Coding <br/>
+                    Buddy <br/>
+                    {/* <div style={{height:'18px'}} /> */}
                     <br/>
                 </div>
             </div>
             <div className='col'>
                 <div class="works-box" style={{backgroundColor: 'rgb(247, 247, 255)'}}>
-                    <br/>
-                    A unique curriculum is designed for you after analysing your strength and weaknesses.
+                    <br/><span class='imp-text'>Unique curriculum <br/></span>
+                    Designed as per your experience
                     <div style={{height:'18px'}} />
                     <br/>
                 </div>
             </div>
             <div className='col'>
                 <div class="works-box" style={{backgroundColor: 'rgb(246, 237, 231)'}}>
-                    <br/>
-                    We provide placement opportunities and dedicated preparation for specific opportunities as well.
+                <br/><span class='imp-text'>Structured preparation<br/></span>
+                    For company specific opportunities
                     <div style={{height:'18px'}} />
                     <br/>
                 </div>
             </div>
             <div className='col'>
                 <div class="works-box" style={{backgroundColor: 'rgb(242, 247, 255)', paddingTop:'25px', paddingBottom:'25px'}}>
-                    You crack your dream company and then start paying according to ISA.If needed after some months, we start preparations again to switch for better package.
+                    <span class='imp-text'>Crack dream companies!</span>Pay as per ISA <span class='imp-text'>Aspiring More!<br/></span>
+                    <span class='imp-text'>Re-level<br/></span> to crack More!
                 </div>
             </div>
         </div>

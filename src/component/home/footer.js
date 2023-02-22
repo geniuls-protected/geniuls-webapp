@@ -15,30 +15,30 @@ export default function Footer() {
                 <div style={{paddingTop:'20px'}}/>
                 <div className='send-style'>
                     <input type='text' placeholder='Enter your email' className='input-email'/>
-                    <button class="email-send" type="button"><FiArrowRight size={28}/></button>
+                    <a href="mailto:support@geniuls.com"><button class="email-send" type="button"><FiArrowRight size={28}/></button></a>
                 </div>
                 <div style={{paddingTop:'20px'}}/>
-                <div style={{display:'flex'}}> 
-                    <MdFacebook size={30}/> <div style={{paddingRight:'20px'}}/>  
-                    <AiOutlineInstagram size={30}/> <div style={{paddingRight:'20px'}}/> 
-                    <IoLogoLinkedin size={30}/>
+                <div style={{display:'flex'}} id='contactus'> 
+                    <a href='https://www.facebook.com/geniulsLLP?mibextid=ZbWKwL' target='_blank' class='socal-link'><MdFacebook size={30}/></a> <div style={{paddingRight:'20px'}}/>  
+                    <a href='https://instagram.com/geniuls?igshid=YmMyMTA2M2Y=' target='_blank' class='socal-link'><AiOutlineInstagram size={30}/></a> <div style={{paddingRight:'20px'}}/> 
+                    <a href='https://www.linkedin.com/company/geniuls/' target='_blank' class='socal-link'><IoLogoLinkedin size={30}/></a>
                 </div>
             </div>
             <div className="col-5">
                 <div className="row">
                     <div className="col-6">
                         Geniuls <br/> <div style={{paddingTop:'20px'}}/> 
-                        <p className='footer-subtext'>About Us</p>
-                        <p className='footer-subtext'>Contact Us</p>
-                        <p className='footer-subtext'>Refund Policy</p>
+                        <a className='footer-subtext' href='#howItWorks'>How It Works</a><br/>
+                        <a className='footer-subtext' href='#whygeniuls'>Why Geniuls</a><br/>
+                        <a className='footer-subtext' href='#usp'>Our USPs</a><br/>
                     </div>
                     <div className="col-6">
-                        More <br/> <div style={{paddingTop:'20px'}}/> 
-                        <p className='footer-subtext'>We're hiring</p>
-                        <p className='footer-subtext'>Geniuls for Teams</p>
-                        <p className='footer-subtext'>Learner's center</p>
-                        <p className='footer-subtext'>Apply as Mentor</p>
-                        <p className='footer-subtext'>Newsletter Archive</p>
+                        Info <br/> <div style={{paddingTop:'20px'}}/> 
+                        <a className='footer-subtext'>We're hiring</a><br/>
+                        <a className='footer-subtext'>Geniuls for Teams</a><br/>
+                        <a className='footer-subtext'>Learner's center</a><br/>
+                        <a className='footer-subtext'>Apply as Mentor</a><br/>
+                        <a className='footer-subtext'>Newsletter Archive</a><br/>
                     </div>
                 </div>
             </div>

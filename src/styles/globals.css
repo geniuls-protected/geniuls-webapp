@@ -4,10 +4,10 @@
 
 .logo-img {
   position: relative;
-  height: 80px;
+  /* height: 80px;
   width: 80px;
   max-width: 100px;
-max-height: 100%;
+max-height: 100%; */
   /* position: absolute; */
 }
 
@@ -17,7 +17,7 @@ max-height: 100%;
 
 .why-head {
   font-weight: 700;
-  font-size: 17px;
+  font-size: 20px;
 }
 
 .why-box {
@@ -30,27 +30,72 @@ max-height: 100%;
   margin: 0 120px 0 120px;
 }
 
+.work-heading {  
+  font-style: initial;
+  font-size: 40px;
+  font-weight: 640;
+}
+
+.sub-works {  
+  font-style: initial;
+  font-size: 20px;
+  font-weight: 640;
+  line-height: 2.5rem;
+}
+
+.socal-link {
+  color: white;
+}
+
+.socal-link:hover{
+  color: white;
+}
+
 .footer-subtext {
   color: darkgrey;
+  /* margin-top: 0; */
+  /* padding-top: 20px;
+  padding-bottom: 20px; */
+  text-decoration: none;
+}
+
+.footer-subtext:hover {
+  color: darkgray;
 }
 
 .works-box {
   display: flex;
-    flex-direction: column;
-    flex: 1 1 0%;
-    position: relative;
-    padding-inline: 1rem;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-    margin-top: 0.5rem;
-    border-radius: 1rem;
-    opacity: 100;
-    z-index: 1;
+  flex-direction: column;
+  flex: 1 1 0%;
+  position: relative;
+  padding-inline: 1rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  margin-top: 0.5rem;
+  border-radius: 1rem;
+  opacity: 100;
+  z-index: 1;
+  font-weight: 700;;
+  font-size: 15px; 
+}
+
+.hook-points{
+  font-size: 32px;
+}
+.imp-text{
+  font-size: 18px; 
+}
+
+.geniuls-desc {
+  margin-top: 25px;
+  font-weight: bold;
+  font-size: 21px;
 }
 
 .main-points {
   color: orangered;
-  font-weight: bold;
+  font-weight: 833;
+  font-size: 25px;
 }
 
 .send-style {
@@ -76,10 +121,9 @@ max-height: 100%;
   margin-left: -18px;
 }
 
-.nav-comp :hover {
-  color: white;
-  background-color: rgb(239, 194, 218);
-  border-radius: 7px;
+.nav-comp {
+  text-transform: uppercase;
+  font-weight: 500;
 }
 
 .nav-gap {
@@ -118,6 +162,7 @@ max-height: 100%;
 .stat-style {
   text-align: center;
   align-items: center;
+  color: #40070A;
 }
 
 .big-text {
@@ -134,6 +179,7 @@ max-height: 100%;
 }
 
 .enrollButton {
+  margin-top: 25px;
   font-size:17px;
   font-family:Arial;
   width:200px;
@@ -148,13 +194,19 @@ max-height: 100%;
   border-bottom-right-radius:5px;
   box-shadow: 1px 8px 0px 1px #fff;
   background:#C1D3FE;
+  cursor: pointer;
 }
 
-.enrollButton:hover {
+.enrollButton:hover{
   background: white;
   color: black;
   border-color: #000;
   border: 1px solid #000;
+  cursor: pointer;
+}
+
+.get-started:hover{
+  cursor: pointer;
 }
 
 .background-filter::after {
@@ -218,8 +270,8 @@ max-height: 100%;
 }
 
 .CompanyLogoContainer{
-  width: 96px;
-  height: 96px;
+  /* width: 100%;
+  height: 100%; */
   margin:0px 32px;
   display: flex;
   justify-content: center;
@@ -232,7 +284,7 @@ max-height: 100%;
 .CompanyLogoUp,.CompanyLogoDown{
   display: flex;
   animation-name: HiringPartnersAnimation;
-  animation-duration:60s;
+  animation-duration:30s;
   animation-iteration-count: infinite;
   animation-play-state:running;
   animation-direction: reverse;
@@ -257,7 +309,7 @@ max-height: 100%;
 .horizontal__animation__container{
   font-family: "Poppins", sans-serif;
   font-size: 45px;
-  font-weight: 600;
+  font-weight: bolder;
   display: flex;
 }
 
