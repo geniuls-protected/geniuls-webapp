@@ -41,7 +41,8 @@ const PRODUCT_FEATURE = {
 export default function OurUSP() {
     const { sectionTitle, posts } = PRODUCT_FEATURE;
   return (
-    <div className='container' style={{marginLeft:'100px', marginRight:'10px'}}>
+    <div style={{backgroundColor:'#F9FAFC'}}>
+      <div className='container'>
       <Box sx={styles.section}>
       <Container>
         <h4 style={{textAlign:'center'}}>Our USP's</h4>
@@ -64,6 +65,7 @@ export default function OurUSP() {
         </Grid>
       </Container>
     </Box>
+    </div>
     </div>
     )
   }

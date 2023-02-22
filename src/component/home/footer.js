@@ -1,6 +1,7 @@
 import {MdFacebook} from 'react-icons/md'
 import {AiOutlineInstagram} from 'react-icons/ai'
 import {IoLogoLinkedin} from'react-icons/io'
+import {FiArrowRight} from 'react-icons/fi'
 
 export default function Footer() {
   return (
@@ -14,7 +15,7 @@ export default function Footer() {
                 <div style={{paddingTop:'20px'}}/>
                 <div className='send-style'>
                     <input type='text' placeholder='Enter your email' className='input-email'/>
-                    <button class="email-send" type="button">S</button>
+                    <button class="email-send" type="button"><FiArrowRight size={28}/></button>
                 </div>
                 <div style={{paddingTop:'20px'}}/>
                 <div style={{display:'flex'}}> 

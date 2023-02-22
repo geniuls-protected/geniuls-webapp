@@ -14,23 +14,23 @@ import Footer from "./footer";
 
 export default function HomePage() {
     return (
-      <>
-        <Navbar/>
-        <Intro/>
+      <div>
+        <Navbar className="main-style"/>
+        <Intro className="main-style"/>
         {/* <div style={{paddingTop:'80px'}}/> */}
-        <Stats/>
+        <Stats className="main-style"/>
         <div style={{paddingTop:'100px'}}/>
-        <HowItWorks/>
+        <HowItWorks className="main-style"/>
         <div style={{paddingTop:'100px'}}/>
-        <WhyGeniuls/>
+        <WhyGeniuls className="main-style"/>
         <div style={{paddingTop:'80px'}}/>
         <OurUSP/>
         <div style={{paddingTop:'100px'}}/>
         <Companies/>
         <div style={{paddingTop:'100px'}}/>
-        <FAQ/>
+        <FAQ className="main-style"/>
         <div style={{paddingTop:'100px'}}/>
         <Footer/>
-      </>
+      </div>
     )
   }

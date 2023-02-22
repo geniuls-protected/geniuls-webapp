@@ -1,3 +1,7 @@
+.main-style {
+  margin: 0 120px 0 120px;
+}
+
 .logo-img {
   position: relative;
   height: 80px;
@@ -11,28 +15,46 @@ max-height: 100%;
   font-family: 'IBM Plex Sans',sans-serif;
 }
 
+.why-head {
+  font-weight: 700;
+  font-size: 17px;
+}
+
+.why-box {
+  margin: 0%;
+  border: 0px;
+  padding: 0px;
+}
+
+.why-layout {
+  margin: 0 120px 0 120px;
+}
+
 .footer-subtext {
   color: darkgrey;
 }
 
+.works-box {
+  display: flex;
+    flex-direction: column;
+    flex: 1 1 0%;
+    position: relative;
+    padding-inline: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    margin-top: 0.5rem;
+    border-radius: 1rem;
+    opacity: 100;
+    z-index: 1;
+}
+
+.main-points {
+  color: orangered;
+  font-weight: bold;
+}
+
 .send-style {
   /* background-color: white; */
-}
-
-.nav-comp {
-  text-transform: uppercase;
-  font-weight: 600;
-}
-
-.scribble-img {}
-
-.work-heading{
-  font-size: 32px;
-  font-weight: 700;
-}
-
-.sub-works {
-  padding-bottom: 15px;
 }
 
 .input-email {
@@ -41,6 +63,8 @@ max-height: 100%;
   height: 44px;
   border-top-left-radius: 20px;
   border-bottom-left-radius: 20px;
+  border-top-right-radius: none;
+  border-bottom-right-radius: none;
   padding-left: 20px;
 }
 
@@ -49,6 +73,13 @@ max-height: 100%;
   border-radius: 100%;
   height: 50px;
   width: 50px;
+  margin-left: -18px;
+}
+
+.nav-comp :hover {
+  color: white;
+  background-color: rgb(239, 194, 218);
+  border-radius: 7px;
 }
 
 .nav-gap {
@@ -61,8 +92,8 @@ max-height: 100%;
   border: 1px solid #3C2A21;
   border-radius: 0.375rem;
   color: white;
-  padding: 0.57rem 1.2rem;
-  margin: 0;;
+  padding: 0.3rem 1.2rem;
+  margin: 0;
 }
 
 .register-button:hover {
@@ -72,8 +103,7 @@ max-height: 100%;
 }
 
 .catalog-img {
-  padding-top: 86px;
-  height: 496px;
+  height: 350px;
   width: auto;
 }
 
@@ -103,16 +133,6 @@ max-height: 100%;
   font-size: 15px;
 }
 
-.geniuls-desc {
-  font-size:17px;
-  font-family:Arial;
-  margin-right: 10px;
-  margin-left: 105px;
-  margin-top: 80px;
-  margin-bottom: 37px;
-  line-height: 30px;
-}
-
 .enrollButton {
   font-size:17px;
   font-family:Arial;
@@ -128,14 +148,6 @@ max-height: 100%;
   border-bottom-right-radius:5px;
   box-shadow: 1px 8px 0px 1px #fff;
   background:#C1D3FE;
-  margin-left: 105px;
-  margin-bottom: 60px;
-}
-
-.main-points {
-  color: #ffbd59;
-  font-weight: bold;
-  font-size: 22px;
 }
 
 .enrollButton:hover {
@@ -198,7 +210,6 @@ max-height: 100%;
 }
 .OurMInd h1{
   font-size: 40px;
-  margin: 10px;
 }
 .OurMInd h2{
   font-size: 30px;
@@ -254,7 +265,6 @@ max-height: 100%;
   background-color: white;
   height: 80px;
   display: inline-block;
-  margin-left: 25px; 
 }
 
 @keyframes slide_words{
@@ -303,9 +313,6 @@ max-height: 100%;
   font-family: "Poppins", sans-serif;
   font-size: 45px;
   font-weight: 600;
-  margin: 100px;
-  margin-bottom: 30px;
-  padding-top: 30px;
 }
 
 .vertical__animation__words{

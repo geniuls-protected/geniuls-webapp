@@ -5,12 +5,11 @@ import { VerticalAnimation } from './animations/vertical-animation.component.js/
 export default function Intro() {
   return (
     <>
-        <div class="container">
+        <div class="container" style={{padding: '94px 0 45px 45px'}}>
         <div class="row" style={{marginBottom:'11px'}}>
             <div class="col-8">
             <div><VerticalAnimation/></div>
-            <p class='geniuls-desc'>Outcome Driven by Top <span class='main-points'>Industry Professionals </span> 
-            <br/><span class='main-points'>1:1 Mentorship</span>  to <br/>Crack your Dream Job.</p>
+            <p class='geniuls-desc'>An outcome driven initiative.<br/>Unique <span class='main-points'>industry-oriented curriculum</span><br/>designed for you by <span class='main-points'>expert mentors</span></p>
               
             <button class="enrollButton">Get Started</button>
             </div>

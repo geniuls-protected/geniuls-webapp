@@ -32,23 +32,28 @@ export default function WhyGeniuls() {
     const { title, text, posts } = FEATURES_DATA;
   return (
     <>
-        <div className="container" style={{marginLeft:'170px', paddingLeft: '44px', marginRight:'10px'}}>
-          <div class='work-heading'><bold>Why Geniuls?</bold></div>
-          <Image src={scribble} class='scribble-img'/>
-          <div style={{paddingTop:'40px'}}/>
-          <Flex >
-            {posts.map(({ stepNo, title, text }, index) => (
-              <Box  key={`feature-post-key-${index}`}>
-                <Box className="image">
-                  <div className='numberCircle'>{stepNo}</div>
-                </Box>
-                <Box>
-                  <Heading as="h3">{title}</Heading>
-                  <Text as="p">{text}</Text>
-                </Box>
-              </Box>
-            ))}
-          </Flex>
+        <div className="container">
+          <div class='work-heading why-layout'><bold>Why Geniuls?</bold></div>
+          <Image src={scribble} class='scribble-img why-layout'/>
+          <div class='why-layout'>
+            <div class='row'>
+            <div class='col-4 why-box'>
+              <div class='numberCircle'>01</div>
+              <div class='why-head'>Pay after you get placed!</div>
+              <div class='why-sub'>Eliminating Monetary Risk of <br/> Higher Education</div>
+            </div>
+            <div class='col-4 why-box'>
+              <div class='numberCircle'>02</div>
+              <div class='why-head'>No pre-requirements!</div>
+              <div class='why-sub'>Any college, Any CGPA, Any degree</div>
+            </div>
+            <div class='col-4 why-box'>
+              <div class='numberCircle'>03</div>
+              <div class='why-head'>Up to date curriculum</div>
+              <div class='why-sub'>Understanding of Workspace and updated <br/> Technology(missing in Freshers Hired <br/>by Companies from college)</div>
+            </div>
+          </div>
+          </div>
         </div>
     </>
   )
