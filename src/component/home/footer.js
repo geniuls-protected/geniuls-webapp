@@ -19,9 +19,9 @@ export default function Footer() {
                 </div>
                 <div style={{paddingTop:'20px'}}/>
                 <div style={{display:'flex'}} id='contactus'> 
-                    <a href='https://www.facebook.com/geniulsLLP?mibextid=ZbWKwL' target='_blank' class='socal-link'><MdFacebook size={30}/></a> <div style={{paddingRight:'20px'}}/>  
-                    <a href='https://instagram.com/geniuls?igshid=YmMyMTA2M2Y=' target='_blank' class='socal-link'><AiOutlineInstagram size={30}/></a> <div style={{paddingRight:'20px'}}/> 
-                    <a href='https://www.linkedin.com/company/geniuls/' target='_blank' class='socal-link'><IoLogoLinkedin size={30}/></a>
+                    <a href='https://www.facebook.com/geniulsLLP?mibextid=ZbWKwL' target='_blank' rel="noreferrer" class='socal-link'><MdFacebook size={30}/></a> <div style={{paddingRight:'20px'}}/>  
+                    <a href='https://instagram.com/geniuls?igshid=YmMyMTA2M2Y=' target='_blank' rel="noreferrer" class='socal-link'><AiOutlineInstagram size={30}/></a> <div style={{paddingRight:'20px'}}/> 
+                    <a href='https://www.linkedin.com/company/geniuls/' target='_blank' rel="noreferrer" class='socal-link'><IoLogoLinkedin size={30}/></a>
                 </div>
             </div>
             <div className="col-5">
@@ -34,9 +34,9 @@ export default function Footer() {
                     </div>
                     <div className="col-6">
                         Info <br/> <div style={{paddingTop:'20px'}}/> 
-                        <a className='footer-subtext'>We're hiring</a><br/>
+                        <a className='footer-subtext'>We&apos;re hiring</a><br/>
                         <a className='footer-subtext'>Geniuls for Teams</a><br/>
-                        <a className='footer-subtext'>Learner's center</a><br/>
+                        <a className='footer-subtext'>Learner&apos;s center</a><br/>
                         <a className='footer-subtext'>Apply as Mentor</a><br/>
                         <a className='footer-subtext'>Newsletter Archive</a><br/>
                     </div>

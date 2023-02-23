@@ -45,7 +45,7 @@ export default function OurUSP() {
       <div className='container'>
       <Box sx={styles.section}>
       <Container>
-        <h4 style={{textAlign:'center'}}>Our USP's</h4>
+        <h4 style={{textAlign:'center'}}>Our USP&apos;s</h4>
         <div style={{paddingTop:'20px'}}/>
 
         <Grid sx={styles.grid}>

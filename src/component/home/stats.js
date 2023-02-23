@@ -5,7 +5,7 @@ export default function Stats() {
     <div class="container">
         <div class="row">
             <div class="col-3 stat-style">
-                <span className='big-text'>15.6 LPA</span>&nbsp; <span className='avg-text'>avg.</span><br/><span className='sml-text'>Our Alumni placed<br/>in '22'</span>
+                <span className='big-text'>15.6 LPA</span>&nbsp; <span className='avg-text'>avg.</span><br/><span className='sml-text'>Our Alumni placed<br/>in &apos;22&apos;</span>
             </div>
             <div class="col-3 stat-style">
                 <div className='vl'>

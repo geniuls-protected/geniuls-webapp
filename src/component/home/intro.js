@@ -10,8 +10,7 @@ export default function Intro() {
             <div class="col-8">
             <div><VerticalAnimation/></div>
             <p class='geniuls-desc'>An outcome driven initiative.<br/>Unique <span class='main-points'>industry-oriented curriculum</span><br/>designed for you by <span class='main-points'>expert mentors</span></p>
-              
-            <a href="https://98arnb8wb3v.typeform.com/to/FQMpjsm8" target='_blank'><button class="enrollButton get-started">Get Started</button></a>
+            <a href="https://98arnb8wb3v.typeform.com/to/FQMpjsm8" target='_blank' rel="noreferrer"><button class="enrollButton get-started">Get Started</button></a>
             </div>
             <div class="col-4">
             <div style={{marginRight:'40px'}}><Image src={test} alt='catalog image' className='catalog-img'/></div>

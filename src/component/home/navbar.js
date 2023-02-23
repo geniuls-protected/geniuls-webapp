@@ -29,7 +29,7 @@ export default function Navbar() {
                     <a class="nav-link active" style={{padding: '13px 0px 0px 0px'}} href="#faq">FAQ</a>
                 </li>
                 <li class="nav-item" style={{paddingLeft: '20px', paddingRight: '20px'}}>
-                    <a class="nav-link active" style={{padding: '13px 0px 10px 0px'}} href="https://98arnb8wb3v.typeform.com/to/FQMpjsm8" target='_blank'><button className='register-button'>Register</button></a>
+                    <a class="nav-link active" style={{padding: '13px 0px 10px 0px'}} href="https://98arnb8wb3v.typeform.com/to/FQMpjsm8" target='_blank' rel="noreferrer"><button className='register-button'>Register</button></a>
                 </li>
                 {/* <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false"> Menu </a>

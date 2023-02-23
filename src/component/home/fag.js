@@ -27,7 +27,7 @@ export default function FAQ() {
   <div class="accordion-item">
     <h2 class="accordion-header" id="flush-headingTwo">
       <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
-      What if I don't get placed for 7LPA or more?
+      What if I don&apos;t get placed for 7LPA or more?
       </button>
     </h2>
     <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
@@ -42,7 +42,7 @@ export default function FAQ() {
       </button>
     </h2>
     <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
-      <div class="accordion-body">This is what separates Geniuls from the rest, we don't offer you a traditional course. We design our course and curriculum according to unique requirements and skills of a student. If the syllabus designed for you overlaps with some other students you will be placed in a small batch otherwise we will be happy to give you a one-on-one sessions.<br/>You don't have to worry about the mentor that will be assigned to you. Our each mentor has an impeccable placement record, some used to work for MAANG companies, some helped students crack MAANG companies and some still work as recruiters for dream companies.</div>
+      <div class="accordion-body">This is what separates Geniuls from the rest, we don&apos;t offer you a traditional course. We design our course and curriculum according to unique requirements and skills of a student. If the syllabus designed for you overlaps with some other students you will be placed in a small batch otherwise we will be happy to give you a one-on-one sessions.<br/>You don&apos;t have to worry about the mentor that will be assigned to you. Our each mentor has an impeccable placement record, some used to work for MAANG companies, some helped students crack MAANG companies and some still work as recruiters for dream companies.</div>
     </div>
   </div>
 
