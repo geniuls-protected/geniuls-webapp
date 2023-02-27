@@ -16,7 +16,7 @@ export default function Navbar() {
         <div class="collapse navbar-collapse" id="navbarContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0"></ul>
             <ul class="navbar-nav">
-                <li class="nav-item nav-comp" style={{paddingRight: '20px'}}>
+                <li class="nav-item nav-comp" style={{paddingLeft: '20px', paddingRight: '20px'}}>
                     <a class="nav-link active" style={{padding: '13px 0px 0px 0px'}} href="#howItWorks">How It Works!</a>
                 </li>
                 <li class="nav-item nav-comp" style={{paddingLeft: '20px', paddingRight: '20px'}}>

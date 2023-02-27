@@ -2,6 +2,12 @@
   margin: 0 120px 0 120px;
 }
 
+@media (max-width:480px) {
+  .main-style {
+    margin: 0;
+  }
+}
+
 .logo-img {
   position: relative;
   /* height: 80px;
@@ -176,6 +182,12 @@ max-height: 100%; */
 
 .sml-text {
   font-size: 15px;
+}
+
+@media (max-width:480px) {
+  .carousal-view {
+    display: none;
+  }
 }
 
 .enrollButton {
@@ -401,13 +413,12 @@ max-height: 100%; */
 
 .vertical__animation__horizontal__component{
   position: absolute;
-  height: 100%;
+  /* height: 100%; */
   overflow: hidden;
   animation: spin_words 18s linear infinite;
   opacity: 0;
-  width: 700px
+  /* width: 700px */
 }
-
 
 .vertical__animation__horizontal__component:nth-child(1){
   animation-delay: 0s;

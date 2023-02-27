@@ -10,6 +10,8 @@ import brake from '../../images/brake.svg';
 import Image from "next/image";
 import FAQ from "./fag";
 import Footer from "./footer";
+import Carousal from "./intro-carousal";
+
 
 
 export default function HomePage() {
