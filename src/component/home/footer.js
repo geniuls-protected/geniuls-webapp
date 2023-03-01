@@ -2,12 +2,13 @@ import {MdFacebook} from 'react-icons/md'
 import {AiOutlineInstagram} from 'react-icons/ai'
 import {IoLogoLinkedin} from'react-icons/io'
 import {FiArrowRight} from 'react-icons/fi'
+import { BrowserView, MobileView } from 'react-device-detect'
 
 export default function Footer() {
   return (
     <div style={{backgroundColor:'#030a21', color:'#fff'}}>
      <div style={{paddingTop:'40px'}}/>
-     <div className="container footer -style">
+     <div className="container footer-style">
         <div className="row">
             <div className="col-7">
                 <h4>Subscribe to our newsletter</h4>
@@ -26,13 +27,13 @@ export default function Footer() {
             </div>
             <div className="col-5">
                 <div className="row">
-                    <div className="col-6">
+                    <div className="col-6 geniuls-points">
                         Geniuls <br/> <div style={{paddingTop:'20px'}}/> 
                         <a className='footer-subtext' href='#howItWorks'>How It Works</a><br/>
                         <a className='footer-subtext' href='#whygeniuls'>Why Geniuls</a><br/>
                         <a className='footer-subtext' href='#usp'>Our USPs</a><br/>
                     </div>
-                    <div className="col-6">
+                    <div className="col-6 info-style">
                         Info <br/> <div style={{paddingTop:'20px'}}/> 
                         <a className='footer-subtext'>We&apos;re hiring</a><br/>
                         <a className='footer-subtext'>Geniuls for Teams</a><br/>

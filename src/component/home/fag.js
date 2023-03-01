@@ -8,15 +8,15 @@ export default function FAQ() {
     <>
     <div class="container" id='faq'>
       <div class="row">
-        <div class="col-5" style={{paddingTop:'100px', marginLeft:'-112px'}}><Image src={Dream} height={370}/></div>
+        <div class="col-5 dream-img" style={{paddingTop:'100px', marginLeft:'-112px'}}><Image src={Dream} height={370}/></div>
         <div class='col-2'></div>
         <div class="col-5">
-        <h4 style={{textAlign:'center', fontWeight:'bold', paddingTop:'70px'}}>Frequently Asked Questions</h4>
-    <div class="accordion accordion-flush" id="accordionFlushExample" style={{ marginRight:'-100px'}}>
+        <h4 class='faq-head'>Frequently Asked Questions</h4>
+    <div class="accordion accordion-flush faq-style" id="accordionFlushExample">
   <div class="accordion-item">
     <h2 class="accordion-header" id="flush-headingOne">
       <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
-      How does Pay after Placement works?
+      <span class='faq-heading'>How does Pay after Placement works?</span>
       </button>
     </h2>
     <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
@@ -27,7 +27,7 @@ export default function FAQ() {
   <div class="accordion-item">
     <h2 class="accordion-header" id="flush-headingTwo">
       <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
-      What if I don&apos;t get placed for 7LPA or more?
+      <span class='faq-heading'>What if I don&apos;t get placed for 7LPA or more?</span>
       </button>
     </h2>
     <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
@@ -38,7 +38,7 @@ export default function FAQ() {
   <div class="accordion-item">
     <h2 class="accordion-header" id="flush-headingThree">
       <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
-      What will be my curriculum and who will be teaching me?
+      <span class='faq-heading'>What will be my curriculum and who will be teaching me?</span>
       </button>
     </h2>
     <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
@@ -49,7 +49,7 @@ export default function FAQ() {
   <div class="accordion-item">
     <h2 class="accordion-header" id="flush-headingFour">
       <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
-      Does Geniuls provide job switching assistance?
+      <span class='faq-heading'>Does Geniuls provide job switching assistance?</span>
       </button>
     </h2>
     <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour" data-bs-parent="#accordionFlushExample">
@@ -60,7 +60,7 @@ export default function FAQ() {
   <div class="accordion-item">
     <h2 class="accordion-header" id="flush-headingFive">
       <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseFive">
-      How will Geniuls verify my income?
+      <span class='faq-heading'>How will Geniuls verify my income?</span>
       </button>
     </h2>
     <div id="flush-collapseFive" class="accordion-collapse collapse" aria-labelledby="flush-headingFive" data-bs-parent="#accordionFlushExample">
@@ -71,6 +71,7 @@ export default function FAQ() {
         </div>
       </div>
     </div>
+    <div class='faq-mobile'></div>
     </>
   )
 }

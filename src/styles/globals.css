@@ -2,11 +2,156 @@
   margin: 0 120px 0 120px;
 }
 
-@media (max-width:480px) {
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
   .main-style {
-    margin: 0;
+    margin: 0 10px 0 10px;
+  }
+  .carousal-view {
+    display: none;
+  }
+  .dream-img {
+    display: none;
+  }
+  .input-email {
+    width: 0px;
+  }
+  .why-layout {
+    font-size: 10px;
+  }
+  .work-heading {  
+    font-style: initial;
+    font-size: 29px;
+    text-align: center;
+    font-weight: 640;
+  }
+  .scribble-img {
+    margin: auto;
+    text-align: center;
+    width: 191px;
+  }
+  .sub-works {  
+    font-size: 15px;
+    font-weight: 640;
+  }
+  .stat-style {
+    padding: 15px;
+  }
+  .big-text {
+    font-weight: 800;
+    font-size: 52px;
+  }
+  .sml-text {
+    font-size: 21px;
+    font-weight: 700;
+  }
+  .why-box {
+    text-align: center;
+  }
+  .circle-center {
+    text-align: center;
+      margin: auto;
+      width: 50%;
+  }
+  .why-sub {
+    font-size: 15px;
+  }
+  .input-email {
+    border: none;
+    width: 162px;
+    height: 44px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: none;
+    border-bottom-right-radius: none;
+    padding-left: 20px;
+  }
+  .faq-style {
+    margin-left: -70px;
+    margin-right: -150px;
+    font-size: 0.875rem;
+  }
+  .faq-heading {
+    font-size: 0.875rem;
+    font-weight: 600;
+  }
+  .faq-head {
+    margin-left: -70px;
+    margin-right: -150px;
+    text-align:center; 
+    font-weight:bold; 
+    padding-bottom: 15px;
+  }
+  .vertical__animation__container {}
+  .faq-mobile {
+    padding: 20px;
+  }
+  .geniuls-points {
+    display: none;
+  }
+  .info-style {
+    margin-right: 0px;
+  }
+  .footer-subtext {
+    white-space: nowrap;
+    margin-bottom: 10px;
+  }
+  .footer-style {
+    font-size:15px;
   }
 }
+
+@media only screen and (min-width: 768px) {
+  .why-layout {
+    margin: 0 120px 0 120px;
+  }
+  .work-heading {  
+    font-style: initial;
+    font-size: 40px;
+    font-weight: 640;
+  }
+  .sub-works {  
+    font-style: initial;
+    font-size: 20px;
+    font-weight: 640;
+    line-height: 2.5rem;
+  }
+  .vl {
+    border-left: 1.5px solid rgb(187, 185, 185);
+    height: 100px;
+    padding-left: 20px;
+    padding-right: 20px;
+    vertical-align: middle;
+  }
+  .big-text {
+    font-weight: 800;
+    font-size: 30px;
+  }
+  .sml-text {
+    font-size: 15px;
+  }
+  .input-email {
+    border: none;
+    width: 400px;
+    height: 44px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: none;
+    border-bottom-right-radius: none;
+    padding-left: 20px;
+  }
+
+  .faq-style {
+    margin-right: -100px;
+  }
+}
+
+.faq-head {
+  text-align:center; 
+  font-weight:bold; 
+  padding-top:70px
+}
+
 
 .logo-img {
   position: relative;
@@ -32,22 +177,7 @@ max-height: 100%; */
   padding: 0px;
 }
 
-.why-layout {
-  margin: 0 120px 0 120px;
-}
 
-.work-heading {  
-  font-style: initial;
-  font-size: 40px;
-  font-weight: 640;
-}
-
-.sub-works {  
-  font-style: initial;
-  font-size: 20px;
-  font-weight: 640;
-  line-height: 2.5rem;
-}
 
 .socal-link {
   color: white;
@@ -104,21 +234,6 @@ max-height: 100%; */
   font-size: 25px;
 }
 
-.send-style {
-  /* background-color: white; */
-}
-
-.input-email {
-  border: none;
-  width: 400px;
-  height: 44px;
-  border-top-left-radius: 20px;
-  border-bottom-left-radius: 20px;
-  border-top-right-radius: none;
-  border-bottom-right-radius: none;
-  padding-left: 20px;
-}
-
 .email-send {
   margin: 0px;
   border-radius: 100%;
@@ -157,31 +272,14 @@ max-height: 100%; */
   width: auto;
 }
 
-.vl {
-  border-left: 1.5px solid rgb(187, 185, 185);
-  height: 100px;
-  padding-left: 20px;
-  padding-right: 20px;
-  vertical-align: middle;
-}
-
 .stat-style {
   text-align: center;
   align-items: center;
   color: #40070A;
 }
 
-.big-text {
-  font-weight: 800;
-  font-size: 30px;
-}
-
 .mid-text {
   font-size: 20px;
-}
-
-.sml-text {
-  font-size: 15px;
 }
 
 @media (max-width:480px) {

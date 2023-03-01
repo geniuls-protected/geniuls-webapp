@@ -59,33 +59,11 @@ class Carousal extends Component {
   }
 
   render() {
-    const { activeIndex } = this.state;
-
-    const slides = items.map((item) => {
-      return (
-        <CarouselItem
-          onExiting={this.onExiting}
-          onExited={this.onExited}
-          // key={item.src}
-        >
-          <img src={item.src} alt={item.altText} />
-          {/* <Image src={item.src} width={500}/> */}
-        </CarouselItem>
-      );
-    });
 
     return (
-      // <Carousel
-      //   activeIndex={activeIndex}
-      //   next={this.next}
-      //   previous={this.previous}
-      // >
-      //   <CarouselIndicators items={items} activeIndex={activeIndex} onClickHandler={this.goToIndex} />
-      //   {slides}
-      //   <CarouselControl direction="prev" directionText="Previous" onClickHandler={this.previous} />
-      //   <CarouselControl direction="next" directionText="Next" onClickHandler={this.next} />
-      // </Carousel>
-      <UncontrolledCarousel items={items} />
+      <div className='carousal-view'>
+        <UncontrolledCarousel items={items} />
+      </div>
     );
   }
 }

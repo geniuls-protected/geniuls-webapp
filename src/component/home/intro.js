@@ -15,7 +15,7 @@ export default function Intro() {
             </div>
             <div class="col-7">
             {/* <div style={{marginRight:'40px'}}><Image src={test} alt='catalog image' className='catalog-img'/></div> */}
-            <Carousal className='carousal-view'/>
+            <Carousal/>
             </div>
         </div>
         </div>
