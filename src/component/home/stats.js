@@ -9,7 +9,7 @@ export default function Stats() {
             </div>
             <div class="col-lg-3 col-sm-12 col-md-3 stat-style">
                 <div className='vl'>
-                    <span className='big-text line'>50 LPA</span><br/><span className='sml-text'>highest<br/>CTC</span>
+                    <span className='big-text line'>47 LPA</span><br/><span className='sml-text'>highest<br/>CTC</span>
                 </div>
             </div>
             <div class="col-lg-3 col-sm-12 col-md-3 stat-style">

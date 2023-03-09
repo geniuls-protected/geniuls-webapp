@@ -82,7 +82,6 @@
     font-weight:bold; 
     padding-bottom: 15px;
   }
-  .vertical__animation__container {}
   .faq-mobile {
     padding: 20px;
   }
@@ -99,9 +98,49 @@
   .footer-style {
     font-size:15px;
   }
+  .intro-mbl{
+    flex: 0 0 auto !important;
+    width: 83.33333333% !important;
+  }
+  .horizontal__animation__container{
+    font-family: "Poppins", sans-serif;
+    font-size: 21px;
+    font-weight: 600;
+    display: flex;
+  }
+
+  .geniuls-desc {
+    margin-top: 1rem;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    margin-left: -61px;
+    margin-right: -27px;
+  }
+
+  .simple-text {
+    /* margin-left: -51px; */
+  }
+
+  /* .typewriter-animate {
+    padding-left: -10px;
+  } */
+
+  .main-points {
+    color: orangered;
+    font-weight: 833;
+    font-size: 23px;
+    /* white-space: nowrap; */
+  }
 }
 
 @media only screen and (min-width: 768px) {
+  .horizontal__animation__container{
+    font-family: "Poppins", sans-serif;
+    font-size: 45px;
+    font-weight: 600;
+    display: flex;
+  }
   .why-layout {
     margin: 0 120px 0 120px;
   }
@@ -144,6 +183,25 @@
   .faq-style {
     margin-right: -100px;
   }
+
+  .geniuls-desc {
+    margin-top: 1rem;
+    font-weight: bold;
+    font-size: 21px;
+  }
+
+  .main-points {
+    color: orangered;
+    font-weight: 833;
+    font-size: 25px;
+  }
+}
+
+.caousal-photo {
+  margin-top: -3px;
+  padding-left: 54px;
+  width: 605px;
+  margin-left: 89px;
 }
 
 .faq-head {
@@ -222,18 +280,6 @@ max-height: 100%; */
   font-size: 18px; 
 }
 
-.geniuls-desc {
-  margin-top: 25px;
-  font-weight: bold;
-  font-size: 21px;
-}
-
-.main-points {
-  color: orangered;
-  font-weight: 833;
-  font-size: 25px;
-}
-
 .email-send {
   margin: 0px;
   border-radius: 100%;
@@ -268,8 +314,10 @@ max-height: 100%; */
 }
 
 .catalog-img {
-  height: 350px;
+  height: 256px;
   width: auto;
+  margin-left: 13px;
+  margin-top: -79px;
 }
 
 .stat-style {
@@ -280,12 +328,6 @@ max-height: 100%; */
 
 .mid-text {
   font-size: 20px;
-}
-
-@media (max-width:480px) {
-  .carousal-view {
-    display: none;
-  }
 }
 
 .enrollButton {
@@ -416,17 +458,18 @@ max-height: 100%; */
     } 
 }
 
-.horizontal__animation__container{
+/* .horizontal__animation__container{
   font-family: "Poppins", sans-serif;
   font-size: 45px;
-  font-weight: bolder;
+  font-weight: 600;
   display: flex;
-}
+} */
 
 .horizontal__animation__words{
   background-color: white;
   height: 80px;
   display: inline-block;
+  margin-left: 25px; 
 }
 
 @keyframes slide_words{
@@ -475,6 +518,7 @@ max-height: 100%; */
   font-family: "Poppins", sans-serif;
   font-size: 45px;
   font-weight: 600;
+  /* margin: 100px */
 }
 
 .vertical__animation__words{
@@ -511,12 +555,13 @@ max-height: 100%; */
 
 .vertical__animation__horizontal__component{
   position: absolute;
-  /* height: 100%; */
+  height: 100%;
   overflow: hidden;
   animation: spin_words 18s linear infinite;
   opacity: 0;
-  /* width: 700px */
+  width: 700px
 }
+
 
 .vertical__animation__horizontal__component:nth-child(1){
   animation-delay: 0s;
@@ -527,5 +572,3 @@ max-height: 100%; */
 .vertical__animation__horizontal__component:nth-child(3){
   animation-delay: 12s;
 }
-
-
