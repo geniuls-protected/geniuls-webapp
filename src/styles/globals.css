@@ -333,6 +333,7 @@ max-height: 100%; */
 }
 
 .enrollButton {
+  margin-left: 20px;
   margin-top: 25px;
   font-size:17px;
   font-family:Arial;
@@ -348,7 +349,6 @@ max-height: 100%; */
   border-bottom-right-radius:5px;
   box-shadow: 1px 8px 0px 1px #fff;
   background:#C1D3FE;
-  cursor: pointer;
 }
 
 .enrollButton:hover{
