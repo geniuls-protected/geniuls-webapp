@@ -313,10 +313,12 @@ max-height: 100%; */
   color: black;
 }
 
+.carousel-indicators li { display:none; }
+
 .catalog-img {
   height: 256px;
   width: auto;
-  margin-left: 13px;
+  margin-left: 37px;
   margin-top: -79px;
 }
 
