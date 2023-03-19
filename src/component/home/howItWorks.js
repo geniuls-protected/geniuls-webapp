@@ -59,7 +59,6 @@ export default function HowItWorks() {
                     </span>
                     For Mentorship & Coding <br/>
                     Buddy <br/>
-                    {/* <div style={{height:'18px'}} /> */}
                     <br/>
                 </div>
             </div>

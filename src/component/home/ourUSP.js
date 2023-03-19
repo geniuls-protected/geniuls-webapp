@@ -1,37 +1,30 @@
 import React from 'react';
 import Image from 'next/image';
-import { Container, Link, Box, Grid, Heading, Text } from 'theme-ui';
-import { IoIosArrowForward } from 'react-icons/io';
+import { Container, Box, Grid, Text } from 'theme-ui';
 import feature1 from './assets/service-1.svg';
 import feature2 from './assets/service-2.svg';
 import feature3 from './assets/service-3.svg';
 import feature4 from './assets/service-4.svg';
-import feature5 from './assets/service-5.svg';
-import feature6 from './assets/service-6.svg';
 
 const PRODUCT_FEATURE = {
   posts: [
     {
       icon: feature1,
-      // title: 'Email Hosting',
       text:
         'Unlike traditional courses our program is designed by taking account of a unique requirements and skills of the student.'
     },
     {
       icon: feature2,
-      // title: 'Dedicated Hosting',
       text:
         'One Head Mentor, one Buddy Mentor + Extra skills Mentors(Data Science, Full stack, Projects, Resume Building, etc) are assigned 24X7 to a student. This Program is not a 9-5 Learning Classes Platform, its molded according to students needs.'
     },
     {
       icon: feature3,
-      // title: 'VPS Services',
       text:
         'There is no time boundation to get success from Geniuls (Some students are placed within 4 weeks of enrolling in the program), while for Masai School or any other programs they take 7- 8 months of training, train on their own pace, where they don’t take account the urgency of students and their precious time. The curriculum of Geniuls has a edge here.'
     },
     {
       icon: feature4,
-      // title: 'WP Website Builder',
       text:
         'Even after placement, our mentors will be in touch with you for switching companies which leads to better package and better position.'
     }
@@ -55,9 +48,6 @@ export default function OurUSP() {
                 <Image src={icon} alt={title} width="70" height="70" />
               </Box>
               <Box sx={styles.itemContent}>
-                {/* <Heading as="h3">
-                  {title}
-                </Heading> */}
                 <Text as="p">{text}</Text>
               </Box>
             </Box>
