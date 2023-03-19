@@ -4,6 +4,7 @@ import logo from '../../images/logo.png'
 export default function Navbar() {
   return (
     <>
+    {/* mobile nav view */}
         <nav class="container navbar navbar-expand-lg" >
     <div class="container-fluid" style={{marginTop: '17px'}}>
         <a class="navbar-brand" href="#"><Image src={logo} alt='geniuls logo' height={40}/></a>
