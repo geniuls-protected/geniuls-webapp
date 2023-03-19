@@ -20,10 +20,7 @@ export default function HomePage() {
       <div>
         <Navbar className="main-style"/>
         <Intro className="main-style"/>
-        {/* <div style={{paddingTop:'80px'}}/> */}
         <Stats className="main-style"/>
-        {/* <div style={{paddingTop:'100px'}}/> */}
-        {/* <MobileView><Carousal/></MobileView> */}
         <div style={{paddingTop:'20px'}}/>
         <HowItWorks className="main-style"/>
         <div style={{paddingTop:'100px'}}/>
@@ -32,9 +29,7 @@ export default function HomePage() {
         <OurUSP/>
         <div style={{paddingTop:'100px'}}/>
         <Companies/>
-        {/* <div style={{paddingTop:'100px'}}/> */}
         <FAQ className="main-style"/>
-        {/* <div style={{paddingTop:'100px'}}/> */}
         <Footer/>
       </div>
     )
