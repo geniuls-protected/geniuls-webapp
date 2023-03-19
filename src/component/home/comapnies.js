@@ -18,7 +18,6 @@ import Mxplayer from '../../images/Logos/Mxplayer.png'
 import Optum from '../../images/Logos/Optum.png'
 import Uber from '../../images/Logos/Uber.png'
 import Verizon from '../../images/Logos/Verizon.png'
-import catalog from '../../images/catalog.png'
 
 export default function Companies() {
     return (

@@ -5,15 +5,8 @@ import Stats from "./stats";
 import OurUSP from "./ourUSP";
 import WhyGeniuls from "./whyGeniuls";
 import Companies from "./comapnies";
-
-import brake from '../../images/brake.svg';
-import Image from "next/image";
 import FAQ from "./fag";
 import Footer from "./footer";
-import Carousal from "./intro-carousal";
-import { MobileView } from "react-device-detect";
-
-
 
 export default function HomePage() {
     return (

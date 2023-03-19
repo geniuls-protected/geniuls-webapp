@@ -1,8 +1,6 @@
 import Image from 'next/image'
 import Dream from '../../images/Dream.png'
 
-{/* <Image src={logo} alt='geniuls logo' className='logo-img'/> */}
-
 export default function FAQ() {
   return (
     <>

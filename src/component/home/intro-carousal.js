@@ -1,14 +1,7 @@
 import React, { Component } from 'react';
 import {
-  UncontrolledCarousel,
-  Carousel,
-  CarouselItem,
-  CarouselControl,
-  CarouselIndicators,
-  CarouselCaption
+  UncontrolledCarousel
 } from 'reactstrap';
-import Image from 'next/image'
-import Dream from '../../images/Dream.png'
 
 const items = [
   {

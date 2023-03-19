@@ -2,7 +2,6 @@ import test from '../../images/test.png'
 import Image from 'next/image'
 import { VerticalAnimation } from './animations/vertical-animation.component.js/vertical-animation.component'
 import Carousal from './intro-carousal'
-import { Typewriter } from 'react-simple-typewriter'
 import { BrowserView, MobileView } from 'react-device-detect'
 
 export default function Intro() {
@@ -18,7 +17,6 @@ export default function Intro() {
             <a href="https://98arnb8wb3v.typeform.com/to/FQMpjsm8" target='_blank' rel="noreferrer"><button class="enrollButton get-started">Get Started</button></a>
             </div>
             <div class="col-7">
-            {/* <div style={{marginRight:'40px'}}><Image src={test} alt='catalog image' className='catalog-img'/></div> */}
             <BrowserView><Carousal/></BrowserView>
             </div>
         </div>
