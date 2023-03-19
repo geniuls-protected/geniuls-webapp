@@ -4,6 +4,7 @@ import scribble from '../../images/scribble.png'
 export default function WhyGeniuls() {
   return (
     <>
+        {/* geniuls web push */}
         <div className="container" id='whygeniuls'>
           <div class='work-heading why-layout'><bold>Why Geniuls?</bold></div>
           <div class='scribble-img'><Image src={scribble} class='why-layout'/></div>
