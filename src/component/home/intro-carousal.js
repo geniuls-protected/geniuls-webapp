@@ -62,3 +62,36 @@ class Carousal extends Component {
 }
 
 export default Carousal;
+// import React from "react";
+// import styled from "styled-components";
+
+// const Container = styled.div`
+
+// width: 630px;
+// flex: flexbox;
+// flex-direction: column;
+// height 357px;
+// // padding:10px;
+// margin-top: 100px;
+// margin-right: 100px;
+// border: 2px dashed black;
+// align-items: right;
+// justify-content: flex-end;
+// `;
+
+// const Rightcontainer = () =>{
+
+//   return(
+//       <Container>
+//           <Heading>Name Surname,50LPA</Heading>
+
+//           <Content>
+//               Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi mollitia iste aperiam culpa sapiente dolorem facilis, esse eius repellendus nulla fugiat adipisci voluptate incidunt perspiciatis eveniet.
+//           </Content>
+//       </Container>
+//   )
+
+// }
+
+
+// export default Rightcontainer

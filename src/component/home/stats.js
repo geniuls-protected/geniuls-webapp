@@ -54,8 +54,8 @@ useEffect(()=>{
             <span className="big-text">{alumniCounter} LPA</span>
             <br />
             <span className="sml-text">
-              avg. Our Alumni <br />
-              placed
+              Avg. Our Alumni <br />
+              Placed
             </span>
           </div>
           <div class="col-lg-3 col-sm-12 col-md-3 stat-style">
@@ -63,7 +63,7 @@ useEffect(()=>{
               <span className="big-text line">{ctcCounter} LPA</span>
               <br />
               <span className="sml-text">
-                highest
+                Highest
                 <br />
                 CTC
               </span>
@@ -74,9 +74,9 @@ useEffect(()=>{
               <span className="big-text line">{studentPlacedCounter}%</span>
               <br />
               <span className="sml-text">
-                student
+                Student
                 <br />
-                placed
+                Placed
               </span>
             </div>
           </div>
@@ -85,9 +85,9 @@ useEffect(()=>{
               <span className="big-text line">{ratingCounter}/10</span>
               <br />
               <span className="sml-text">
-                average
+                Average
                 <br />
-                rating
+                Rating
               </span>
             </div>
           </div>
