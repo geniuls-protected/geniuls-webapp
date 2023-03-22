@@ -2,7 +2,6 @@ import {MdFacebook} from 'react-icons/md'
 import {AiOutlineInstagram} from 'react-icons/ai'
 import {IoLogoLinkedin} from'react-icons/io'
 import {FiArrowRight} from 'react-icons/fi'
-import { BrowserView, MobileView } from 'react-device-detect'
 
 export default function Footer() {
   return (
