@@ -62,7 +62,7 @@ class Carousal extends Component {
 
     return (
       <div>
-        <UncontrolledCarousel items={items} className='caousal-photo'/>
+        <UncontrolledCarousel items={items} className='caousal-photo' indicators={false} />
       </div>
     );
   }

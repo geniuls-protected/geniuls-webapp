@@ -207,9 +207,12 @@
 .faq-head {
   text-align:center; 
   font-weight:bold; 
-  padding-top:70px
+  padding-top: 110px;
 }
 
+.footer-paddding {
+  padding-bottom: 25px;
+}
 
 .logo-img {
   position: relative;
@@ -251,6 +254,7 @@ max-height: 100%; */
   /* padding-top: 20px;
   padding-bottom: 20px; */
   text-decoration: none;
+  line-height: 2.5;
 }
 
 .footer-subtext:hover {

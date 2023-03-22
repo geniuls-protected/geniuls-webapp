@@ -68,6 +68,7 @@ export default function FAQ() {
     </div>
   </div>
 </div>
+<div className='footer-paddding'/>
         </div>
       </div>
     </div>
