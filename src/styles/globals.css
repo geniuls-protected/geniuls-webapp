@@ -216,6 +216,22 @@ line-height: 20px;
     font-weight: 700;
     font-size: 25px
   }
+  .scribb{
+    margin-left: 210px;
+  }
+}
+
+.box{
+  width: 460px;
+    position: absolute;
+    height: 200px;
+    margin-bottom: 130px;
+    top: 350px;
+    padding: 15px;
+    margin-left: 600px;
+    background-color: #e6d5a5;
+    border: 2px solid #ebd07f;
+    border-radius: 14px;
 }
 
 .caousal-photo {
@@ -612,3 +628,5 @@ max-height: 100%; */
 .carousel-control-next{
   display: none !important;
 }
+
+
