@@ -5,13 +5,16 @@ import {
 
 const items = [
   {
-    src: '/image/BodiSatta.jpeg'
+    src: '/image/BodiSatta_Carousel.jpg'
   },
   {
-    src: '/image/Ankita.jpeg'
+    src: '/image/Ankita_Carousel.jpg'
   },
   {
-    src: '/image/Divya.jpeg'
+    src: '/image/Sachin_Carousel.jpg'
+  },
+  {
+    src: '/image/Divya_Carousel.jpg'
   }
 ];
 

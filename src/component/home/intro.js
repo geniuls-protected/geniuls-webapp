@@ -24,9 +24,8 @@ export default function Intro() {
             <Image  src="Divya.jpeg"  alt=""  width={300} height={400} / >
 
           </div> */}
-          <div class= 'col-9'>
-            <div className="box" ><span><h5>Name Surname ,</h5><i><b>50 LPA</b></i><span>⭐⭐⭐⭐⭐</span></span><br></br>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Excepturi quisquam officia vel fugit porro molestias deleniti quod. Repellat, debitis iure? Voluptatum distinctio voluptatem eos, dicta placeat explicabo vel aliquam deleniti.
-            </div>
+          <div class='col-7'>
+            <Carousal/>
           </div>
         </div>
       </div>
